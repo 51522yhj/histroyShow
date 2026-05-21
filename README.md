@@ -45,3 +45,25 @@ npm run build
 ```
 
 构建产物位于 `dist/`，可直接用于静态站点托管。
+
+## 国内访问部署
+
+项目已内置 CloudBase 静态网站托管的 GitHub Actions 工作流：
+
+```text
+.github/workflows/deploy.yml
+```
+
+在 GitHub 仓库中进入 `Settings -> Secrets and variables -> Actions`，添加：
+
+- `TCB_SECRET_ID`: 腾讯云访问密钥 SecretId
+- `TCB_SECRET_KEY`: 腾讯云访问密钥 SecretKey
+- `TCB_ENV_ID`: CloudBase 环境 ID
+
+推送到 `main` 后会自动构建并发布到 CloudBase 静态托管。该工作流会设置 `VITE_ENABLE_WIKI=false`，国内版本不请求 Wikimedia，避免页面因境外接口不可达而影响展示。
+
+如需本地构建国内版本：
+
+```bash
+VITE_ENABLE_WIKI=false npm run build
+```

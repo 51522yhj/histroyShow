@@ -6,8 +6,13 @@ export interface WikiSummary {
 }
 
 const cache = new Map<string, Promise<WikiSummary | null>>();
+const wikiEnabled = import.meta.env.VITE_ENABLE_WIKI !== 'false';
 
 export function fetchWikiSummary(title: string): Promise<WikiSummary | null> {
+  if (!wikiEnabled) {
+    return Promise.resolve(null);
+  }
+
   if (!title.trim()) {
     return Promise.resolve(null);
   }
