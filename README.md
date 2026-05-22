@@ -1,13 +1,13 @@
 # 中国历史长河可视化
 
-一个使用 Vue 3 + Vite 构建的横向可拖拽历史长河展示应用，包含“通史长河”和“党史长河”两条线路。节点详情保留本地科普内容，并通过 Wikimedia 接口增强摘要和图片；党史节点额外绑定权威校验来源。
+一个使用 Vue 3 + Vite 构建的横向可拖拽历史长河展示应用，包含“通史长河”和“党史长河”两条线路。节点详情保留本地科普内容；国内部署版本关闭 Wikimedia 请求，改用本地图片素材与权威来源链接，避免海外接口影响访问。
 
 线上访问：
 
 - Vercel: https://lishi-henna.vercel.app
 - GitHub: https://github.com/51522yhj/histroyShow
 
-> 提示：Vercel 和 Wikimedia 在中国大陆访问可能不稳定。面向国内用户时，建议将 `dist/` 部署到腾讯云 COS / CloudBase / EdgeOne 或阿里云 OSS + CDN，并改用本地图片与本地数据增强。
+> 提示：Vercel 和 Wikimedia 在中国大陆访问可能不稳定。面向国内用户时，建议将 `dist/` 部署到腾讯云 COS / CloudBase / EdgeOne 或阿里云 OSS + CDN，并使用 `public/images/events/` 中的本地素材。
 
 ## 展示样例
 
@@ -28,7 +28,7 @@
 - 横向拖拽长卷，支持鼠标、触摸和进度条快速定位。
 - 双线路切换：通史长河、党史长河。
 - 事件详情包含背景、脉络、影响、关键词和来源链接。
-- Wikimedia Action API 增强摘要与图片，接口不可用时自动回退本地内容。
+- 国内版优先使用本地图片素材，接口不可用时自动回退本地科普内容。
 - 响应式布局，桌面端右侧详情面板，移动端底部详情抽屉。
 
 ## 本地运行
@@ -67,3 +67,19 @@ npm run build
 ```bash
 VITE_ENABLE_WIKI=false npm run build
 ```
+
+## 国内图片素材
+
+事件详情图通过 `src/data/eventImages.ts` 统一维护。国内版本建议把已授权图片放到：
+
+```text
+public/images/events/
+```
+
+然后在 `src/data/eventImages.ts` 中将事件 ID 映射到本地路径，例如：
+
+```ts
+'qin-unification': '/images/events/qin-unification.webp'
+```
+
+没有配置真实图片的节点会自动使用本地兜底图，保证 CloudBase 页面不会再因为海外图源或防盗链导致图片空白。

@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { computed, nextTick, onMounted, onUnmounted, ref, watch } from 'vue';
 import { cpcEvents, cpcPeriods } from './data/cpcEvents';
+import { eventImageMap } from './data/eventImages';
 import { historyEvents, historyPeriods, type HistoryEvent, type HistoryPeriod } from './data/historyEvents';
 import { fetchWikiSummary, type WikiSummary } from './services/wiki';
 
@@ -81,6 +82,9 @@ const progressThumbStyle = computed(() => {
 });
 
 const featuredImage = computed(() => {
+  if (eventImageMap[selectedEvent.value.id]) {
+    return eventImageMap[selectedEvent.value.id];
+  }
   if (wiki.value?.thumbnail) {
     return wiki.value.thumbnail;
   }
@@ -422,14 +426,14 @@ onUnmounted(() => {
 
         <div class="wiki-box">
           <div class="wiki-head">
-            <span>Wikimedia 接口摘要</span>
+            <span>本地科普与来源校验</span>
             <small v-if="wikiLoading">连接中</small>
-            <small v-else-if="wikiFailed">使用本地稿</small>
+            <small v-else-if="wikiFailed">国内版稳定显示</small>
             <small v-else>已增强</small>
           </div>
           <p v-if="wikiExtract">{{ wikiExtract }}</p>
-          <p v-else>当前节点保留本地科普内容；接口不可用时仍可完整阅读。</p>
-          <a v-if="wiki?.pageUrl" :href="wiki.pageUrl" target="_blank" rel="noreferrer">查看接口来源条目</a>
+          <p v-else>当前节点使用本地科普内容与权威来源链接；国内部署不依赖境外图片接口。</p>
+          <a v-if="wiki?.pageUrl" :href="wiki.pageUrl" target="_blank" rel="noreferrer">查看增强来源条目</a>
         </div>
       </div>
     </aside>
