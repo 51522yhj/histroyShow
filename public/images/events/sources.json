@@ -18,22 +18,10 @@
     "url": "https://www.chnmuseum.cn/zl/zlhg/201812/t20181220_32409.shtml"
   },
   {
-    "ids": ["qin-unification", "qin-standards", "han-wudi", "zhang-qian", "paper", "xianbei-reform"],
-    "title": "古代中国基本陈列相关文物图",
-    "source": "中国国家博物馆",
-    "url": "https://www.chnmuseum.cn/"
-  },
-  {
-    "ids": ["cpc-first-congress", "cpc-second-congress", "jinggangshan", "zunyi-conference"],
-    "title": "党史学习教育相关图片",
+    "ids": ["cpc-first-congress", "jinggangshan", "zunyi-conference"],
+    "title": "党史事件地点相关图片",
     "source": "共产党员网 / 央视网图片库",
     "url": "https://www.12371.cn/"
-  },
-  {
-    "ids": ["nanchang-uprising"],
-    "title": "南昌起义相关图片",
-    "source": "天津市卫生健康委员会党史学习教育专题",
-    "url": "https://wsjk.tj.gov.cn/ZTZL1/ZTHG/wjwdsxxjy/wjwdsxxjydszs/202108/t20210806_5528129.html"
   },
   {
     "ids": ["long-march"],
@@ -42,7 +30,7 @@
     "url": "https://www.yudu.gov.cn/yudu/tsyd/201710/d90a35102bec4f70a9d27ddff65d2429.shtml"
   },
   {
-    "ids": ["prc-founding", "prc-1949", "cpc-centenary"],
+    "ids": ["prc-founding", "prc-1949"],
     "title": "开国大典彩色胶片相关图片",
     "source": "中华人民共和国外交部",
     "url": "https://www.mfa.gov.cn/ziliao_674904/zt_674979/dnzt_674981/qtzt/zggcddwjw100ggs/jszgddzg/202208/t20220824_10750397.shtml"
