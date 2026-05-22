@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 620" role="img" aria-label="党史长河">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1d0907"/>
+      <stop offset="0.48" stop-color="#152520"/>
+      <stop offset="1" stop-color="#32140e"/>
+    </linearGradient>
+    <linearGradient id="river" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#e9b65f" stop-opacity="0.75"/>
+      <stop offset="0.55" stop-color="#bc3328" stop-opacity="0.68"/>
+      <stop offset="1" stop-color="#6fd0bf" stop-opacity="0.45"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="16"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="620" fill="url(#bg)"/>
+  <path d="M-30 340 C150 250 275 380 430 318 C620 242 742 384 930 310 C1070 255 1160 280 1230 335 L1230 510 C1070 455 970 500 805 462 C625 422 470 505 295 455 C140 410 65 455 -30 495 Z" fill="url(#river)" opacity="0.78"/>
+  <path d="M70 390 C245 318 342 414 520 340 C705 263 820 395 1045 322" fill="none" stroke="#ffd37b" stroke-width="9" opacity="0.27" filter="url(#glow)"/>
+  <g opacity="0.18" stroke="#f2c468" stroke-width="2">
+    <path d="M200 0v620"/>
+    <path d="M390 0v620"/>
+    <path d="M580 0v620"/>
+    <path d="M770 0v620"/>
+    <path d="M960 0v620"/>
+  </g>
+  <circle cx="190" cy="315" r="12" fill="#f2c468"/>
+  <circle cx="380" cy="340" r="12" fill="#e65a43"/>
+  <circle cx="640" cy="305" r="12" fill="#f2c468"/>
+  <circle cx="930" cy="330" r="12" fill="#e65a43"/>
+  <text x="72" y="112" fill="#fff4d8" font-size="64" font-family="serif" font-weight="700">党史长河</text>
+  <text x="76" y="168" fill="#ffd79a" font-size="24" font-family="sans-serif">从红船启航到新时代征程</text>
+</svg>

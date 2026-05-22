@@ -80,7 +80,15 @@ const progressThumbStyle = computed(() => {
   return { width: `${width}%`, left: `${left}%` };
 });
 
-const featuredImage = computed(() => wiki.value?.thumbnail || selectedEvent.value.imageFallback);
+const featuredImage = computed(() => {
+  if (wiki.value?.thumbnail) {
+    return wiki.value.thumbnail;
+  }
+  if (selectedEvent.value.imageFallback) {
+    return selectedEvent.value.imageFallback;
+  }
+  return activeTimelineKey.value === 'cpc' ? '/images/cpc-fallback.svg' : '/images/history-fallback.svg';
+});
 const wikiExtract = computed(() => {
   const extract = wiki.value?.extract?.trim();
   if (!extract) {
