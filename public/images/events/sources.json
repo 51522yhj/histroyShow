@@ -1,38 +1,457 @@
 [
   {
-    "ids": ["yangshao"],
-    "title": "仰韶彩陶相关藏品图",
-    "source": "中国国家博物馆",
-    "url": "https://www.chnmuseum.cn/zp/zpml/kgfjp/202107/t20210719_250715.shtml"
+    "id": "yangshao",
+    "title": "仰韶彩陶兴盛",
+    "wikiTitle": "仰韶文化",
+    "image": "/images/events/yangshao.jpg",
+    "sourceType": "domestic-official-or-curated"
   },
   {
-    "ids": ["liangzhu"],
-    "title": "良渚玉器相关藏品图",
-    "source": "中国国家博物馆",
-    "url": "https://www.chnmuseum.cn/zp/zpml/csp/202107/t20210716_250668.shtml"
+    "id": "liangzhu",
+    "title": "良渚古城与玉礼制",
+    "wikiTitle": "良渚文化",
+    "image": "/images/events/liangzhu.jpg",
+    "sourceType": "domestic-official-or-curated"
   },
   {
-    "ids": ["oracle"],
-    "title": "甲骨文相关展览图",
-    "source": "中国国家博物馆",
-    "url": "https://www.chnmuseum.cn/zl/zlhg/201812/t20181220_32409.shtml"
+    "id": "erlitou",
+    "title": "二里头都邑兴起",
+    "wikiTitle": "二里头遗址",
+    "image": "/images/events/baike/erlitou.jpg",
+    "sourceType": "baidu-baike-entry-image"
   },
   {
-    "ids": ["cpc-first-congress", "jinggangshan", "zunyi-conference"],
-    "title": "党史事件地点相关图片",
-    "source": "共产党员网 / 央视网图片库",
-    "url": "https://www.12371.cn/"
+    "id": "oracle",
+    "title": "甲骨文成熟",
+    "wikiTitle": "甲骨文",
+    "image": "/images/events/oracle.jpg",
+    "sourceType": "domestic-official-or-curated"
   },
   {
-    "ids": ["long-march"],
-    "title": "长征出发地相关图片",
-    "source": "于都县人民政府",
-    "url": "https://www.yudu.gov.cn/yudu/tsyd/201710/d90a35102bec4f70a9d27ddff65d2429.shtml"
+    "id": "western-zhou",
+    "title": "武王伐纣",
+    "wikiTitle": "武王克殷",
+    "image": "/images/events/baike/western-zhou.jpg",
+    "sourceType": "baidu-baike-entry-image"
   },
   {
-    "ids": ["prc-founding", "prc-1949"],
-    "title": "开国大典彩色胶片相关图片",
-    "source": "中华人民共和国外交部",
-    "url": "https://www.mfa.gov.cn/ziliao_674904/zt_674979/dnzt_674981/qtzt/zggcddwjw100ggs/jszgddzg/202208/t20220824_10750397.shtml"
+    "id": "spring-autumn",
+    "title": "春秋秩序裂变",
+    "wikiTitle": "春秋时期",
+    "image": "/images/events/baike/spring-autumn.jpg",
+    "sourceType": "baidu-baike-entry-image"
+  },
+  {
+    "id": "confucius",
+    "title": "孔子整理礼乐",
+    "wikiTitle": "孔子",
+    "image": "/images/events/baike/confucius.jpg",
+    "sourceType": "baidu-baike-entry-image"
+  },
+  {
+    "id": "shang-yang",
+    "title": "商鞅变法",
+    "wikiTitle": "商鞅变法",
+    "image": "/images/events/baike/shang-yang.jpg",
+    "sourceType": "baidu-baike-entry-image"
+  },
+  {
+    "id": "qin-unification",
+    "title": "秦灭六国",
+    "wikiTitle": "秦灭六国之战",
+    "image": "/images/events/baike/qin-unification.jpg",
+    "sourceType": "baidu-baike-entry-image"
+  },
+  {
+    "id": "qin-standards",
+    "title": "书同文车同轨",
+    "wikiTitle": "秦朝",
+    "image": "/images/events/baike/qin-standards.jpg",
+    "sourceType": "baidu-baike-entry-image"
+  },
+  {
+    "id": "han-wudi",
+    "title": "汉武帝强化帝国",
+    "wikiTitle": "汉武帝",
+    "image": "/images/events/baike/han-wudi.jpg",
+    "sourceType": "baidu-baike-entry-image"
+  },
+  {
+    "id": "zhang-qian",
+    "title": "张骞通西域",
+    "wikiTitle": "张骞",
+    "image": "/images/events/baike/zhang-qian.jpg",
+    "sourceType": "baidu-baike-entry-image"
+  },
+  {
+    "id": "paper",
+    "title": "蔡伦改进造纸术",
+    "wikiTitle": "蔡伦",
+    "image": "/images/events/baike/paper.jpg",
+    "sourceType": "baidu-baike-entry-image"
+  },
+  {
+    "id": "three-kingdoms",
+    "title": "三国鼎立",
+    "wikiTitle": "三国",
+    "image": "/images/events/baike/three-kingdoms.jpg",
+    "sourceType": "baidu-baike-entry-image"
+  },
+  {
+    "id": "xianbei-reform",
+    "title": "北魏孝文帝改革",
+    "wikiTitle": "北魏孝文帝改革",
+    "image": "/images/events/baike/xianbei-reform.jpg",
+    "sourceType": "baidu-baike-entry-image"
+  },
+  {
+    "id": "grand-canal",
+    "title": "隋唐大运河贯通",
+    "wikiTitle": "京杭大运河",
+    "image": "/images/events/baike/grand-canal.jpg",
+    "sourceType": "baidu-baike-entry-image"
+  },
+  {
+    "id": "tang-prosperity",
+    "title": "贞观之治",
+    "wikiTitle": "贞观之治",
+    "image": "/images/events/baike/tang-prosperity.jpg",
+    "sourceType": "baidu-baike-entry-image"
+  },
+  {
+    "id": "xuanzang",
+    "title": "玄奘西行",
+    "wikiTitle": "玄奘",
+    "image": "/images/events/baike/xuanzang.jpg",
+    "sourceType": "baidu-baike-entry-image"
+  },
+  {
+    "id": "an-lushan",
+    "title": "安史之乱",
+    "wikiTitle": "安史之乱",
+    "image": "/images/events/baike/an-lushan.jpg",
+    "sourceType": "baidu-baike-entry-image"
+  },
+  {
+    "id": "song-founding",
+    "title": "陈桥兵变与宋立国",
+    "wikiTitle": "陈桥兵变",
+    "image": "/images/events/baike/song-founding.jpg",
+    "sourceType": "baidu-baike-entry-image"
+  },
+  {
+    "id": "movable-type",
+    "title": "活字印刷出现",
+    "wikiTitle": "活字印刷术",
+    "image": "/images/events/baike/movable-type.jpg",
+    "sourceType": "baidu-baike-entry-image"
+  },
+  {
+    "id": "mongol-empire",
+    "title": "成吉思汗建蒙古国",
+    "wikiTitle": "成吉思汗",
+    "image": "/images/events/baike/mongol-empire.jpg",
+    "sourceType": "baidu-baike-entry-image"
+  },
+  {
+    "id": "yuan-unification",
+    "title": "元朝统一南北",
+    "wikiTitle": "元朝",
+    "image": "/images/events/baike/yuan-unification.jpg",
+    "sourceType": "baidu-baike-entry-image"
+  },
+  {
+    "id": "ming-founding",
+    "title": "明朝建立",
+    "wikiTitle": "明朝",
+    "image": "/images/events/baike/ming-founding.jpg",
+    "sourceType": "baidu-baike-entry-image"
+  },
+  {
+    "id": "zheng-he",
+    "title": "郑和下西洋",
+    "wikiTitle": "郑和下西洋",
+    "image": "/images/events/baike/zheng-he.jpg",
+    "sourceType": "baidu-baike-entry-image"
+  },
+  {
+    "id": "kangxi-qianlong",
+    "title": "康乾时期疆域整合",
+    "wikiTitle": "康乾盛世",
+    "image": "/images/events/baike/kangxi-qianlong.jpg",
+    "sourceType": "baidu-baike-entry-image"
+  },
+  {
+    "id": "opium-war",
+    "title": "鸦片战争",
+    "wikiTitle": "第一次鸦片战争",
+    "image": "/images/events/baike/opium-war.jpg",
+    "sourceType": "baidu-baike-entry-image"
+  },
+  {
+    "id": "self-strengthening",
+    "title": "洋务运动",
+    "wikiTitle": "洋务运动",
+    "image": "/images/events/baike/self-strengthening.jpg",
+    "sourceType": "baidu-baike-entry-image"
+  },
+  {
+    "id": "xinhai",
+    "title": "辛亥革命",
+    "wikiTitle": "辛亥革命",
+    "image": "/images/events/baike/xinhai.jpg",
+    "sourceType": "baidu-baike-entry-image"
+  },
+  {
+    "id": "may-fourth",
+    "title": "五四运动",
+    "wikiTitle": "五四运动",
+    "image": "/images/events/baike/may-fourth.jpg",
+    "sourceType": "baidu-baike-entry-image"
+  },
+  {
+    "id": "prc-founding",
+    "title": "中华人民共和国成立",
+    "wikiTitle": "中华人民共和国成立",
+    "image": "/images/events/prc-founding.jpg",
+    "sourceType": "domestic-official-or-curated"
+  },
+  {
+    "id": "reform-opening",
+    "title": "改革开放",
+    "wikiTitle": "改革开放",
+    "image": "/images/events/baike/reform-opening.jpg",
+    "sourceType": "baidu-baike-entry-image"
+  },
+  {
+    "id": "wto",
+    "title": "加入世界贸易组织",
+    "wikiTitle": "中国加入世界贸易组织",
+    "image": "/images/events/baike/wto.jpg",
+    "sourceType": "baidu-baike-entry-image"
+  },
+  {
+    "id": "cpc-first-congress",
+    "title": "中共一大召开",
+    "wikiTitle": "中国共产党第一次全国代表大会",
+    "image": "/images/events/cpc-first-congress.jpg",
+    "sourceType": "domestic-official-or-curated"
+  },
+  {
+    "id": "cpc-second-congress",
+    "title": "中共二大制定民主革命纲领",
+    "wikiTitle": "中国共产党第二次全国代表大会",
+    "image": "/images/events/baike/cpc-second-congress.jpg",
+    "sourceType": "baidu-baike-entry-image"
+  },
+  {
+    "id": "first-united-front",
+    "title": "第一次国共合作",
+    "wikiTitle": "第一次国共合作",
+    "image": "/images/events/baike/first-united-front.jpg",
+    "sourceType": "baidu-baike-entry-image"
+  },
+  {
+    "id": "nanchang-uprising",
+    "title": "南昌起义",
+    "wikiTitle": "南昌起义",
+    "image": "/images/events/baike/nanchang-uprising.jpg",
+    "sourceType": "baidu-baike-entry-image"
+  },
+  {
+    "id": "jinggangshan",
+    "title": "井冈山革命根据地",
+    "wikiTitle": "井冈山革命根据地",
+    "image": "/images/events/jinggangshan.jpg",
+    "sourceType": "domestic-official-or-curated"
+  },
+  {
+    "id": "long-march",
+    "title": "中央红军长征",
+    "wikiTitle": "长征",
+    "image": "/images/events/long-march.jpg",
+    "sourceType": "domestic-official-or-curated"
+  },
+  {
+    "id": "zunyi-conference",
+    "title": "遵义会议",
+    "wikiTitle": "遵义会议",
+    "image": "/images/events/zunyi-conference.jpg",
+    "sourceType": "domestic-official-or-curated"
+  },
+  {
+    "id": "xian-incident",
+    "title": "西安事变和平解决",
+    "wikiTitle": "西安事变",
+    "image": "/images/events/baike/xian-incident.jpg",
+    "sourceType": "baidu-baike-entry-image"
+  },
+  {
+    "id": "second-front",
+    "title": "抗日民族统一战线形成",
+    "wikiTitle": "第二次国共合作",
+    "image": "/images/events/baike/second-front.jpg",
+    "sourceType": "baidu-baike-entry-image"
+  },
+  {
+    "id": "yanan-rectification",
+    "title": "延安整风运动",
+    "wikiTitle": "延安整风运动",
+    "image": "/images/events/baike/yanan-rectification.jpg",
+    "sourceType": "baidu-baike-entry-image"
+  },
+  {
+    "id": "seventh-congress",
+    "title": "中共七大召开",
+    "wikiTitle": "中国共产党第七次全国代表大会",
+    "image": "/images/events/baike/seventh-congress.jpg",
+    "sourceType": "baidu-baike-entry-image"
+  },
+  {
+    "id": "prc-1949",
+    "title": "中华人民共和国成立",
+    "wikiTitle": "中华人民共和国成立",
+    "image": "/images/events/prc-1949.jpg",
+    "sourceType": "domestic-official-or-curated"
+  },
+  {
+    "id": "first-five-year",
+    "title": "第一个五年计划启动",
+    "wikiTitle": "第一个五年计划 (中国)",
+    "image": "/images/events/baike/first-five-year.jpg",
+    "sourceType": "baidu-baike-entry-image"
+  },
+  {
+    "id": "socialist-transformation",
+    "title": "社会主义改造基本完成",
+    "wikiTitle": "社会主义改造",
+    "image": "/images/events/baike/socialist-transformation.jpg",
+    "sourceType": "baidu-baike-entry-image"
+  },
+  {
+    "id": "eighth-congress",
+    "title": "中共八大召开",
+    "wikiTitle": "中国共产党第八次全国代表大会",
+    "image": "/images/events/baike/eighth-congress.jpg",
+    "sourceType": "baidu-baike-entry-image"
+  },
+  {
+    "id": "atomic-bomb",
+    "title": "第一颗原子弹爆炸成功",
+    "wikiTitle": "596工程",
+    "image": "/images/events/baike/atomic-bomb.jpg",
+    "sourceType": "baidu-baike-entry-image"
+  },
+  {
+    "id": "third-plenum-1978",
+    "title": "十一届三中全会",
+    "wikiTitle": "中国共产党第十一届中央委员会第三次全体会议",
+    "image": "/images/events/baike/third-plenum-1978.jpg",
+    "sourceType": "baidu-baike-entry-image"
+  },
+  {
+    "id": "twelfth-congress",
+    "title": "中共十二大提出建设有中国特色的社会主义",
+    "wikiTitle": "中国共产党第十二次全国代表大会",
+    "image": "/images/events/baike/twelfth-congress.jpg",
+    "sourceType": "baidu-baike-entry-image"
+  },
+  {
+    "id": "southern-tour",
+    "title": "南方谈话与十四大",
+    "wikiTitle": "邓小平南巡",
+    "image": "/images/events/baike/southern-tour.jpg",
+    "sourceType": "baidu-baike-entry-image"
+  },
+  {
+    "id": "fifteenth-congress",
+    "title": "中共十五大",
+    "wikiTitle": "中国共产党第十五次全国代表大会",
+    "image": "/images/events/baike/fifteenth-congress.jpg",
+    "sourceType": "baidu-baike-entry-image"
+  },
+  {
+    "id": "wto-party-line",
+    "title": "加入世界贸易组织",
+    "wikiTitle": "中国加入世界贸易组织",
+    "image": "/images/events/baike/wto-party-line.jpg",
+    "sourceType": "baidu-baike-entry-image"
+  },
+  {
+    "id": "sixteenth-congress",
+    "title": "中共十六大",
+    "wikiTitle": "中国共产党第十六次全国代表大会",
+    "image": "/images/events/baike/sixteenth-congress.jpg",
+    "sourceType": "baidu-baike-entry-image"
+  },
+  {
+    "id": "scientific-outlook",
+    "title": "科学发展观写入党章",
+    "wikiTitle": "中国共产党第十七次全国代表大会",
+    "image": "/images/events/baike/scientific-outlook.jpg",
+    "sourceType": "baidu-baike-entry-image"
+  },
+  {
+    "id": "eighteenth-congress",
+    "title": "中共十八大",
+    "wikiTitle": "中国共产党第十八次全国代表大会",
+    "image": "/images/events/baike/eighteenth-congress.jpg",
+    "sourceType": "baidu-baike-entry-image"
+  },
+  {
+    "id": "comprehensive-reform",
+    "title": "十八届三中全会",
+    "wikiTitle": "中国共产党第十八届中央委员会第三次全体会议",
+    "image": "/images/events/baike/comprehensive-reform.jpg",
+    "sourceType": "baidu-baike-entry-image"
+  },
+  {
+    "id": "nineteenth-congress",
+    "title": "中共十九大",
+    "wikiTitle": "中国共产党第十九次全国代表大会",
+    "image": "/images/events/baike/nineteenth-congress.jpg",
+    "sourceType": "baidu-baike-entry-image"
+  },
+  {
+    "id": "poverty-alleviation",
+    "title": "脱贫攻坚取得全面胜利",
+    "wikiTitle": "脱贫攻坚战",
+    "image": "/images/events/baike/poverty-alleviation.jpg",
+    "sourceType": "baidu-baike-entry-image"
+  },
+  {
+    "id": "cpc-centenary",
+    "title": "庆祝中国共产党成立一百周年",
+    "wikiTitle": "庆祝中国共产党成立100周年大会",
+    "image": "/images/events/baike/cpc-centenary.jpg",
+    "sourceType": "baidu-baike-entry-image"
+  },
+  {
+    "id": "sixth-plenum-2021",
+    "title": "十九届六中全会通过第三个历史决议",
+    "wikiTitle": "中国共产党第十九届中央委员会第六次全体会议",
+    "image": "/images/events/baike/sixth-plenum-2021.jpg",
+    "sourceType": "baidu-baike-entry-image"
+  },
+  {
+    "id": "twentieth-congress",
+    "title": "中共二十大",
+    "wikiTitle": "中国共产党第二十次全国代表大会",
+    "image": "/images/events/baike/twentieth-congress.jpg",
+    "sourceType": "baidu-baike-entry-image"
+  },
+  {
+    "id": "third-plenum-2024",
+    "title": "二十届三中全会",
+    "wikiTitle": "中国共产党第二十届中央委员会第三次全体会议",
+    "image": "/images/events/baike/third-plenum-2024.jpg",
+    "sourceType": "baidu-baike-entry-image"
+  },
+  {
+    "id": "fourth-plenum-2025",
+    "title": "二十届四中全会",
+    "wikiTitle": "中国共产党第二十届中央委员会第四次全体会议",
+    "image": "/images/events/baike/fourth-plenum-2025.jpg",
+    "sourceType": "baidu-baike-entry-image"
   }
 ]
